@@ -1,0 +1,108 @@
+button {
+  padding: 0px;
+  margin: 0;
+  border-width: 0px;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+@font-face {
+  font-family: normalText;
+  src: url(assets/fonts/spiegel.ttf);
+}
+
+@font-face {
+  font-family: bigText;
+  src: url(assets/fonts/beaufortforlol-bold.otf);
+}
+
+.container {
+  width: 1600px;
+  height: 900px;
+  background-image: url(assets/client_background.jpg);
+  background-size: 180%;
+  background-position: top -500px left -1000px;
+}
+
+.section_shortcuts {
+  width: 82.5%;
+}
+
+.profile_info_client_actions {
+  background-color: rgb(4, 3, 19);
+  width: 17.5%;
+}
+
+.navbar {
+  display: flex;
+  height: 11%;
+}
+
+.content_chat {
+  border-top: 2px solid rgb(123, 120, 115);
+  display: flex;
+  height: 89%;
+  width: 100%;
+}
+
+.content {
+  width: 82.5%;
+}
+
+.chat {
+  width: 17.5%;
+  background-color: rgb(4, 3, 19);
+}
+
+.social_buttons {
+  padding-left: 20px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  color: rgb(148, 141, 116);
+  height: 30px;
+  justify-content: space-between;
+}
+
+.add-friend_container {
+  background-image: url(assets/add-friend.png);
+  background-size: contain;
+}
+#add-friend {
+  background-color: transparent;
+  height: 25px;
+  cursor: pointer;
+}
+
+.list_container {
+  background-image: url(assets/add-friend.png);
+  background-size: contain;
+}
+#list {
+  background-color: transparent;
+  height: 25px;
+  cursor: pointer;
+}
+
+.search_container {
+  background-image: url(assets/add-friend.png);
+  background-size: contain;
+}
+#search {
+  cursor: pointer;
+  background-color: transparent;
+  height: 25px;
+}
+.img-button-social {
+  width: 25px;
+  height: 25px;
+  margin: 0;
+}
+
+.buttons {
+  justify-content: space-around;
+  display: flex;
+  width: 130px;
+}
